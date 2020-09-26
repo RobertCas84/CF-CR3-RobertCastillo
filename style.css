@@ -1,12 +1,21 @@
 .container{
-	font-family: 'Roboto', sans-serif;
-	
-  	
+	font-family: 'Roboto', sans-serif; 
+
 }
+
+@media screen and (min-width:1201px) {
+   body { 
+       
+   }
+}
+   @media screen and (min-width: 481px) and (max-width: 1200px) {
+   body {
+       background-color: lightblue;
+         }
+}
+ 
 #header{
 	height: 11vh;
-	
-
 }
 
 .image{
@@ -14,8 +23,6 @@
 	flex-direction: column;
 	width: 100% auto;
 	background-image: url("img/traffic.jpg");
-	
-	
 }
 
 .headline{
@@ -36,44 +43,38 @@
 	justify-content: space-around;
 	opacity: 0.8;
 	padding: 8vh;
+	box-sizing: content-box;
 }
 
 input[type=text] {
         width: 15vw;
         font-size: 1vw;
         height: 2.8vw;
-        
-        
-        border: solid #797979;
-        
-    }
+        border: solid #797979;        
+}
 
 
 .innnercontent{
 	display: flex;
 	flex-direction: row;
-	
-
-
 }
+
 .inputone{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
-	
-
+	font-size: 0.8em;
 }
-
 
 .inputtwo{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
 }
 
-.result{
+
+
+#result{
 	font-size:;
 	color: #6AA566;
 	margin: 0 auto;
@@ -87,13 +88,12 @@ input[type=text] {
 	display: flex;
 	flex-direction: column;
 }
-button{
-	
+
+button{	
 	background-color: #339235;
 	color: white;
 	font-size: 0.8em;
-	border-radius: 25px;
-	
+	border-radius: 25px;	
 }
 
 .subcontent{
@@ -101,11 +101,12 @@ button{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-
 }
 
 .subcontent h3{
 	font-size: 2em;
+	padding-top: 5vw;
+	padding-bottom: 0.5vw;
 
 }
 .subcontent p{
@@ -119,56 +120,49 @@ button{
 	padding-top: 10vh;
 	padding-bottom: 10vh;
 }
+
 .serviceone{
 	border-top: 2px solid black;
 	width: 40%;
+	box-shadow: 0px 11px 17px 0px rgba(0,0,0,0.75);
 }
 
 .servicetwo{
 	border-top: 2px solid black;
 	width: 40%;
-	
+	box-shadow: 0px 11px 17px 0px rgba(0,0,0,0.75);	
 }
 
 .footercontainer{
 	background-color: black;
 	width: 80vw, auto;
 	height: 7vw;
-
 }
 
-button{
-	
 
-}
 
 header{
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	height: 4vw;
+	height: 8vw;
 	background-color: #FFF3F3;
+
 }
 
 .navbar{
-	height: 2vw;
+	height: 3vw;
 	width: 100%;
 	font-size: 1.3em;
 	color: white;
 	text-decoration: none;
 	background-color: #8E1616;
 	
-	
-	
-
 }
 
 nav a{
 	padding-left: 3vh;
-}
-
-.headline{
-
+	
 }
 
 a{
@@ -189,6 +183,5 @@ a{
 .last{
 	color: white;
 	padding-top: 5vh;
-	text-align: center;
-	
+	text-align: center;	
 }
